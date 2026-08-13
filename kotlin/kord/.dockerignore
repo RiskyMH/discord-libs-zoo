@@ -1,0 +1,5 @@
+build/
+.gradle/
+.env
+bot.db
+*.db

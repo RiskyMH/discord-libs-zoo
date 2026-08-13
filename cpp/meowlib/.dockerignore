@@ -1,0 +1,4 @@
+build/
+.env
+bot.db
+.git/

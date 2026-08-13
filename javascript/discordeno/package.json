@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "node src/bot.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "type": "module",
+  "module": "src/bot.ts",
+  "dependencies": {
+    "discordeno": "^21.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@types/node": "^26.2.0"
+  }
+}

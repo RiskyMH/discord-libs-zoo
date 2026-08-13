@@ -1,0 +1,4 @@
+vendor/
+.env
+bot.db
+*.db

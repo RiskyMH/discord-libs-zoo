@@ -1,0 +1,6 @@
+.git
+.gitignore
+build
+*.db
+.env
+*.log

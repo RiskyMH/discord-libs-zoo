@@ -1,0 +1,13 @@
+[package]
+name = "twilight-honeypot"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rustls = { version = "0.23", default-features = false, features = ["ring"] }
+rusqlite = { version = "0.40", features = ["bundled"] }
+tokio = { version = "1", features = ["rt-multi-thread", "macros"] }
+twilight-gateway = "0.17"
+twilight-http = "0.17"
+twilight-model = "0.17"
+twilight-util = { version = "0.17", features = ["builder"] }

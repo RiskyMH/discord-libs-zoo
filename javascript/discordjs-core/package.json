@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "start": "node src/bot.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "type": "module",
+  "module": "src/bot.ts",
+  "dependencies": {
+    "@discordjs/core": "^2.6.0",
+    "@discordjs/rest": "^2.6.2",
+    "@discordjs/ws": "^2.0.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@types/node": "^26.2.0"
+  }
+}

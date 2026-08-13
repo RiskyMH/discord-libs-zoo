@@ -1,0 +1,9 @@
+[package]
+name = "serenity-honeypot"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rusqlite = { version = "0.40", features = ["bundled"] }
+serenity = { version = "0.12", default-features = false, features = ["builder", "client", "gateway", "http", "model", "rustls_backend", "utils"] }
+tokio = { version = "1", features = ["rt-multi-thread", "macros"] }

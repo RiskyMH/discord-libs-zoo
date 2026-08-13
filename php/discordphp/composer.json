@@ -1,0 +1,6 @@
+{
+    "require": {
+        "php": "^8.4",
+        "team-reflex/discord-php": "^10.0"
+    }
+}
